@@ -8,14 +8,6 @@ research_interests:
   - Geospatial Machine Learning
 theme: jekyll-theme-minimal
 
-# Add icons with hyperlinks
-social_icons:
-  - name: Email
-    icon: /img/email_icon.png
-    link: mailto:yr.zhang@ucl.ac.uk
-  - name: Google Scholar
-    icon: /img/google_scholar_icon.png
-    link: https://scholar.google.com/citations?user=jv4nE5gAAAAJ&hl=en&oi=ao
-  - name: ORCID
-    icon: /img/orcid_icon.png
-    link: https://orcid.org/0000-0001-7956-8640
+# Academic websites
+  googlescholar    : "https://scholar.google.com/citations?user=jv4nE5gAAAAJ&hl=en&oi=ao"
+  orcid            : "https://orcid.org/0000-0001-7956-8640"
