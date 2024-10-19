@@ -4,14 +4,20 @@ Welcome to my academic website! I am Yuerong Zhang, a Lecturer (Assistant Profes
 
 ## About Me
 
-
+<p align="justify">
 I am an Assistant Professor in Geospatial Machine Learning at the UCL Energy Institute. Prior to this, I was a Leverhulme Early Career Researcher and a Transport Energy Modelling Researcher at UCL MaaSLab. Since 2016, I have been working on modelling the resilience of transport and urban systems to extreme events. I have instigated three fundings (e.g., EPSRC, Leverhulme), authored/co-authored numerous peer-reviewed journal papers, been involved in five projects, and developed two software packages, ResilienceNet and Dynamic ResilienceNet, to examine resilience of networks against disturbances such as extreme weather events. I am also a policy advisor to the Department for Transport.
+</p>
 
+<p align="justify">
 I have a range of research interests that fall broadly under the umbrella of transport geography, urban analytics, and energy. Specifically, I am working on the following research themes:
+</p>
 
-- Modelling the resilience of urban, public transport networks and energy transaction resilience.
-- Spatio-temporal analysis of EV charger accessibility and charging behaviour.
-- GeoAI (Geospatial, machine learning, and text mining) in Transport and Energy.
+<ul>
+  <li>Modelling the resilience of urban, public transport networks and energy transaction resilience.</li>
+  <li>Spatio-temporal analysis of EV charger accessibility and charging behaviour.</li>
+  <li>GeoAI (Geospatial, machine learning, and text mining) in Transport and Energy.</li>
+</ul>
+
 
 
 
