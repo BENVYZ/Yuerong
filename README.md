@@ -4,13 +4,26 @@ Welcome to my academic website! I am Yuerong Zhang, a Lecturer (Assistant Profes
 
 ## About Me
 
-I am an Assistant Professor in Geospatial Machine Learning at the University College London (UCL) Energy Institute. Prior to this, I was a Leverhulme Early Career Researcher and a Transport Energy Modelling Researcher at UCL MaaSLab. Up to now, she has been working on modelling the resilience of transport and urban systems to extreme events since 2016. I instigated three fundings (e.g., EPSRC, Leverhulme), authored/co-authored numerous peer-reviewed journal papers, involved in five projects, and developed two software packages, ResilienceNet and Dynamic ResilienceNet, to examine resilience of networks against disturbances such as extreme weather events.  
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: left;">
+    I am an Assistant Professor in Geospatial Machine Learning at the University College London (UCL) Energy Institute.
+  </div>
+  <div style="text-align: right;">
+    Leverhulme Early Career Researcher and a Transport Energy Modelling Researcher at UCL MaaSLab.
+  </div>
+</div>
 
-I have a range of research interests that fall broadly under the umbrella of transport geography, urban analytics and energy. Specifically, I am working on the following research themes:
+<p>
+  Up to now, I have been working on modelling the resilience of transport and urban systems to extreme events since 2016. I instigated three fundings (e.g., EPSRC, Leverhulme), authored/co-authored numerous peer-reviewed journal papers, involved in five projects, and developed two software packages, ResilienceNet and Dynamic ResilienceNet, to examine resilience of networks against disturbances such as extreme weather events.
+</p>
 
-o	Modelling the resilience of urban, public transport networks and energy transaction resilience.
-o	Spatio-temporal analysis of EV charger accessibility and charging behaviour.
-o	GeoAI (Geospatial, machine learning and text mining) in Transport and Energy.  
+<p>I have a range of research interests that fall broadly under the umbrella of transport geography, urban analytics, and energy.</p>
+
+<ul>
+  <li>Modelling the resilience of urban, public transport networks and energy transaction resilience</li>
+  <li>Spatio-temporal analysis of EV charger accessibility and charging behaviour</li>
+  <li>GeoAI (Geospatial, machine learning, and text mining) in Transport and Energy</li>
+</ul>
 
 
 ## Research Interests
