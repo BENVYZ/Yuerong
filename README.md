@@ -21,8 +21,9 @@ o	GeoAI (Geospatial, machine learning and text mining) in Transport and Energy.
 ## Selected Publications
 Here are some of my recent publications:
 
-**[Evaluating the accessibility of on-street household electric vehicle charging stations in London: Policy insights from equity analysis across emission zones]([https://link_to_publication_1](https://www.sciencedirect.com/science/article/pii/S0301421524003951))** - 2024
-**[A review on the factors influencing the adoption of new mobility technologies and services: autonomous vehicle, drone, micromobility and mobility as a service]([https://link_to_publication_2](https://www.tandfonline.com/doi/full/10.1080/01441647.2022.2119297))** - 2023
+- **[Evaluating the accessibility of on-street household electric vehicle charging stations in London: Policy insights from equity analysis across emission zones]([https://link_to_publication_1](https://www.sciencedirect.com/science/article/pii/S0301421524003951))** - 2024<br>
+
+- **[A review on the factors influencing the adoption of new mobility technologies and services: autonomous vehicle, drone, micromobility and mobility as a service]([https://link_to_publication_2](https://www.tandfonline.com/doi/full/10.1080/01441647.2022.2119297))** - 2023
 
 
 ## Experiences
