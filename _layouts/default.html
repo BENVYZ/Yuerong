@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
 
-  <!-- FontAwesome for icons -->
+  <!-- Add FontAwesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- Add any theme-specific or custom styles -->
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-  
+
   <!-- Optional inline styles -->
   <style>
     body {
       display: flex;
       margin: 0;
+      font-family: Arial, sans-serif;
     }
     .left-panel {
       width: 250px;
@@ -30,6 +31,28 @@
     }
     .social-links li, .research-interests li {
       list-style-type: none;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin-right: 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      display: block;
+    }
+    nav ul li a:hover {
+      background-color: #555;
     }
   </style>
 </head>
@@ -63,14 +86,27 @@
   </aside>
 
   <!-- Main Content Section -->
-  <section class="main-content">
-    {{ content }}
-  </section>
+  <div class="main-content">
+
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        {% for nav in site.nav_links %}
+          <li>
+            <a href="{{ nav.url }}">{{ nav.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section>
+      {{ content }}
+    </section>
+
+  </div>
 
 </body>
 </html>
 
-
-
- 
 
