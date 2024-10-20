@@ -8,23 +8,30 @@
   <!-- Add FontAwesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-  <!-- Add any other stylesheets or assets -->
+  <!-- Your custom styles can be linked here -->
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+
+  <!-- Website metadata -->
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="Yuerong Zhang">
 </head>
 <body>
 
-  <!-- Your site's content -->
+  <!-- Header Section with Title and Description -->
   <header>
+    <img src="{{ site.logo | relative_url }}" alt="Logo of Yuerong Zhang" />
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
   </header>
 
+  <!-- Main Content (Page content) -->
   <main>
     {{ content }}
   </main>
 
-  <!-- Social icons in the footer -->
+  <!-- Footer with Social Links -->
   <footer>
+    <h3>Connect with me</h3>
     <ul class="social-links">
       {% for link in site.social_links %}
         <li>
@@ -34,7 +41,16 @@
         </li>
       {% endfor %}
     </ul>
+
+    <!-- Displaying Research Interests -->
+    <h3>Research Interests</h3>
+    <ul>
+      {% for interest in site.research_interests %}
+        <li>{{ interest }}</li>
+      {% endfor %}
+    </ul>
   </footer>
 
 </body>
 </html>
+
