@@ -11,26 +11,49 @@
   <!-- Your custom styles can be linked here -->
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 
-  <!-- Website metadata -->
-  <meta name="description" content="{{ site.description }}">
-  <meta name="author" content="Yuerong Zhang">
+  <!-- Basic CSS for left panel layout -->
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .left-panel {
+      width: 250px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .main-content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    .social-links li, .research-interests li {
+      list-style-type: none;
+    }
+    .social-links li a {
+      display: block;
+      margin: 5px 0;
+      text-decoration: none;
+      color: #333;
+    }
+    .social-links li a:hover {
+      color: #0073b1; /* LinkedIn blue hover color */
+    }
+    .research-interests li {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Header Section with Title and Description -->
-  <header>
-    <img src="{{ site.logo | relative_url }}" alt="Logo of Yuerong Zhang" />
+  <!-- Left Panel for Information -->
+  <aside class="left-panel">
+    <img src="{{ site.logo | relative_url }}" alt="Logo of Yuerong Zhang" style="max-width: 100%;" />
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
-  </header>
 
-  <!-- Main Content (Page content) -->
-  <main>
-    {{ content }}
-  </main>
-
-  <!-- Footer with Social Links -->
-  <footer>
+    <!-- Social Links Section -->
     <h3>Connect with me</h3>
     <ul class="social-links">
       {% for link in site.social_links %}
@@ -42,15 +65,22 @@
       {% endfor %}
     </ul>
 
-    <!-- Displaying Research Interests -->
+    <!-- Research Interests Section -->
     <h3>Research Interests</h3>
-    <ul>
+    <ul class="research-interests">
       {% for interest in site.research_interests %}
         <li>{{ interest }}</li>
       {% endfor %}
     </ul>
-  </footer>
+  </aside>
+
+  <!-- Main Content Area -->
+  <section class="main-content">
+    {{ content }}
+  </section>
 
 </body>
 </html>
+
+ 
 
