@@ -1,12 +1,9 @@
 title: Yuerong Zhang
 logo: /img/img_yz.png
 description: Lecturer (Assistant Professor) in Geospatial Machine Learning
-research_interests:
-  - Transport resilience
-  - Transport and energy
-  - Geospatial Machine Learning
 theme: jekyll-theme-minimal
 
+# Social links with FontAwesome icons
 social_links:
   - name: LinkedIn
     url: "https://www.linkedin.com/in/Yuerong Zhang"
@@ -17,6 +14,12 @@ social_links:
   - name: ORCID
     url: "https://orcid.org/0000-0001-7956-8640"
     icon: fab fa-orcid
+
+research_interests:
+  - Transport resilience
+  - Transport and energy
+  - Geospatial Machine Learning
+
 
 
 
