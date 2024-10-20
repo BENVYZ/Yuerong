@@ -20,6 +20,17 @@ research_interests:
   - Transport and energy
   - Geospatial Machine Learning
 
+# Navigation links for the top bar
+nav_links:
+  - name: Publications
+    url: "/publications"
+  - name: Research
+    url: "/research"
+  - name: CV
+    url: "/cv"
+  - name: Contact
+    url: "/contact"
+
 
 
 
